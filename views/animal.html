@@ -1,0 +1,12 @@
+<div class="well">
+    <h3>{{ animal.name }}</h3>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="{{ animal.image }}" />
+        </div>
+        <div class="col-md-6">
+            <p><strong>Gatunek: </strong><a href="/#!specie/{{ animal.specie.id }}">{{ animal.specie.name }}</a></p>
+            <p><strong>Opis: </strong>{{ animal.description }}</p>
+        </div>
+    </div>
+</div>

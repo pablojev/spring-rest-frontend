@@ -1,0 +1,10 @@
+<div class="well">
+    <h3>Moje zwierzęta:</h3>
+    <ul>
+        <li ng-repeat="animal in animals">
+            <a href="/#!show/{{ animal.id }}">{{ animal.name }}</a>
+            <a href="/#!delete/{{ animal.id }}">Usuń</a>
+            <a href="/#!edit/{{ animal.id }}">Edytuj</a>
+        </li>
+    </ul>
+</div>
